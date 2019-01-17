@@ -17,14 +17,12 @@ if [ "${machine}" = "Mac" ]; then
   # backup ~/.bash_profile for mac then add the
   # content of the .bash_profile in this dir
   # to it
-  echo  lolololo
   cp ~/.bash_profile ~/.mo_bash/backups/.bash_profile
-  cat ~/.mo_bash/.bashrc >> ~/.bash_profile
+  cat ~/.mo_bash/.bash_profile >> ~/.bash_profile
 elif [ "${machine}" = "Linux" ]; then
   # backup ~/.bashrc then add the content of
   # the .bashrc in this dir to it
   # the .bashrc in this dir to it
-  echo  lellelelel
   cp ~/.bashrc ~/.mo_bash/backups/.bashrc
   cat ~/.mo_bash/.bashrc >> ~/.bashrc
 fi

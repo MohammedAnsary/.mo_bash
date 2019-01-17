@@ -12,7 +12,6 @@ esac
 # create backup dir if not already exists
 mkdir -p ~/.mo_bash/backups
 
-
 if [ "${machine}" = "Mac" ]; then
   # backup ~/.bash_profile for mac then add the
   # content of the .bash_profile in this dir

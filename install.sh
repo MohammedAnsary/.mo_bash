@@ -22,7 +22,6 @@ if [ "${machine}" = "Mac" ]; then
 elif [ "${machine}" = "Linux" ]; then
   # backup ~/.bashrc then add the content of
   # the .bashrc in this dir to it
-  # the .bashrc in this dir to it
   cp ~/.bashrc ~/.mo_bash/backups/.bashrc
   cat ~/.mo_bash/.bashrc >> ~/.bashrc
 fi

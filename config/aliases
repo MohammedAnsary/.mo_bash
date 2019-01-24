@@ -79,5 +79,5 @@ alias gu='git ls-files . --exclude-standard --others'
 
 # experteer aliases
 alias crp="cd ~/experteer-dev/pjpp && crane run pjpp"
-alias mig="cd ~/experteer-dev/pjpp && RAILS_ENV=development_owner crane run pjpp rake db:migrate:all"
+alias mig="cd ~/experteer-dev/pjpp && crane run pjpp rake db:migrate:all RAILS_ENV=development_owner"
 alias translate="cd ~/experteer-dev/pjpp && crane run pjpp rake i18n:translate_p"

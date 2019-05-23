@@ -24,3 +24,5 @@ elif [ "${machine}" = "Linux" ]; then
   cp ~/.bashrc ~/.mo_bash/backups/.bashrc
   cat ~/.mo_bash/.bashrc >> ~/.bashrc
 fi
+
+cp ~/.mo_bash/config/tmux.conf ~/.tmux.conf

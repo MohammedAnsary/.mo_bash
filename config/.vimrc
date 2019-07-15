@@ -1,3 +1,6 @@
+" Originally copied from HP Dietz's .vimrc
+" https://github.com/haensl/dotFiles/blob/master/.vimrc
+
 set nocompatible " vim only
 set nomodeline " no modelines
 set encoding=utf-8 " default encoding
